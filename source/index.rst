@@ -181,6 +181,14 @@ Parameters:
 
 	* asset_id : string
 
+Response structure:
+	Record of 'results' array has the following structure:
+	
+	* first field is always NTS id of territorial unit
+	* second field is always common name of territorial unit
+	* then N (from 1 to 5) fields follow containing values for dimensions specified by metadata
+	* last four fields are always (in order) year, measure unit, value, data attribute 
+
 Example request
 
 ::
